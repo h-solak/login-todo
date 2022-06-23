@@ -14,7 +14,7 @@ const Searchbar = ({ taskList, setFilteredTaskList }) => {
   };
   return (
     <div
-      className="flex items-center justify-between px-1 bg-white w-48 sm:w-64 rounded pointer"
+      className="searchbar flex items-center justify-between px-1 bg-white rounded pointer"
       onClick={() => document.getElementById("searchbar").focus()}
       style={{ borderRadius: "12px" }}
     >

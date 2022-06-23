@@ -86,7 +86,7 @@ const AddTask = ({ taskList, setTaskList }) => {
           onClick={handleAddTask}
           className="flex items-center justify-center text-sm md:text-md gradient-primary text-white py-1 px-3 w-28 h-8 rounded-lg"
         >
-          Add a task
+          Add
         </button>
       </div>
     </div>

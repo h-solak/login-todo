@@ -10,7 +10,7 @@ const Home = ({ setIsLoggedIn }) => {
   useEffect(() => {
     //When the page is loaded, get local storage data if there are any
     const savedTodos = JSON.parse(localStorage.getItem("todo-case-data"));
-    if (savedTodos.length > 0) {
+    if (savedTodos) {
       setTaskList(savedTodos);
     }
   }, []);
